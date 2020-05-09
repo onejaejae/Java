@@ -1,4 +1,7 @@
 package com.codechobo.book;
+public class a{
+	int a;
+}
 class calculator{
 	private int left,right;
 	
