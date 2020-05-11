@@ -1,3 +1,4 @@
+git pull origin 브런치명 --allow-unrelated-histories
 package practice2;
 
 public class Ex1 {
