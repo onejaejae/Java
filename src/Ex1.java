@@ -12,6 +12,7 @@ public class Ex1 {
 		displayOverloading d1 = new displayOverloading();
 		d1.a('a');
 		d1.a('a',10);
+		System.out.println();
 	}
 
 }
