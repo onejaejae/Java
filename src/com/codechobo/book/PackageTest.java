@@ -1,5 +1,5 @@
 package com.codechobo.book;
-public class a{
+class a{
 	int a;
 }
 class calculator{
