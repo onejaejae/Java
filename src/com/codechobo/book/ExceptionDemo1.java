@@ -9,9 +9,13 @@ class A{
 	public void z(int first,int second) {
 		try {
 			System.out.println(arr[first]/arr[second]);
-		} catch (Exception e) {
-			// TODO: handle exception
-			e.printStackTrace();
+		} catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("ArrayIndexOutOfBoundsException e");
+		} catch (ArithmeticException e) {
+			System.out.println("ArithmeticException e");
+		} catch (Exception e)
+		{
+			System.out.println(e.getMessage());
 		}
 	}
 }
