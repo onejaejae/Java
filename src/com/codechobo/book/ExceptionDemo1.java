@@ -16,6 +16,8 @@ class A{
 		} catch (Exception e)
 		{
 			System.out.println(e.getMessage());
+		} finally {
+			System.out.println("finally");
 		}
 	}
 }
@@ -25,6 +27,8 @@ public class ExceptionDemo1 {
 		// TODO Auto-generated method stub
 		A a = new A();
 		a.z(10, 2);
+		a.z(1,0);
+		a.z(2,1);
 	}
 
 }
